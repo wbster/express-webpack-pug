@@ -1,0 +1,33 @@
+{
+  "name": "express-webpack-pug",
+  "version": "0.0.0",
+  "main": "app.js",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "dev": "webpack --watch & nodemon app.js"
+  },
+  "dependencies": {
+    "assets-webpack-plugin": "^5.1.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "pug": "2.0.0-beta11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "asset-config-webpack-plugin": "^2.0.0",
+    "file-loader": "^6.0.0",
+    "js-config-webpack-plugin": "^2.0.1",
+    "nodemon": "^2.0.4",
+    "scss-config-webpack-plugin": "^2.0.0",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
